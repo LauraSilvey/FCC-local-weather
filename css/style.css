@@ -11,13 +11,30 @@ h1 {
 	padding-bottom: 20px;
 }
 
-h3 {
-	padding-bottom: 10px;
-}
-
 i {
 	font-size: 40px;
-	padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom:  20px;
 }
 
+.btn-group {
+	padding-top: 20px;
+}
 
+.btn {
+	background-color: #B5838D;
+	border-color:  #6D6875;
+	color: white;
+}
+
+button {
+	opacity: 1;
+}
+
+button:hover{
+	opacity: 0.75;
+}
+
+button:focus {
+    outline: none;
+}

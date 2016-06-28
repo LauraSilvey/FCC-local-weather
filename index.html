@@ -7,20 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
   <script type="text/javascript" src="js/script.js"></script> 
 </head>
-  <div class="container-fluid text-center">
-    <h1>Current Temperature</h1>
-    <div class="current-temp">
-      <h3 id="location">City, State</h3>
-       <h2 id="temp"><i class="wi wi-day-cloudy-high" aria-hidden="true"></i>83</h2>   
-    </div> <!-- current-temp div -->
-  </div> <!-- container-fluid div -->
 
 <body>
-
+  <div class="container-fluid text-center">
+    <h1>Current Temperature</h1>
+    <div class="local-data">
+      <h2 id="location"></h2>
+      <i class="wi" aria-hidden="true"></i> 
+    </div> <!-- current-temp div -->
+  <div class="btn-group" role="group">
+    <button type="button" class="btn" id="fahrenheit">F°</button>
+    <button type="button" class="btn" id="celsius">C°</button>
+  </div> <!-- button div -->
+  </div> <!-- container-fluid div -->
 </body>
 </html>
