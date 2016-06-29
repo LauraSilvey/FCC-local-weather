@@ -21,9 +21,13 @@
       <h2 id="location"></h2>
       <i class="wi" aria-hidden="true"></i> 
     </div> <!-- current-temp div -->
-  <div class="btn-group" role="group">
-    <button type="button" class="btn" id="fahrenheit">F°</button>
-    <button type="button" class="btn" id="celsius">C°</button>
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-warning active" id="fahrenheit">
+     <input type="radio" name="options" id="option1" autocomplete="off" checked>F°
+   </label>
+   <label class="btn btn-warning" id="celsius">
+     <input type="radio" name="options" id="option2" autocomplete="off">C°
+   </label>
   </div> <!-- button div -->
   </div> <!-- container-fluid div -->
 </body>

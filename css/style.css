@@ -1,6 +1,6 @@
 body{
 	padding-top: 30px;
-	background-color:  #6D6875;
+	background-color:  #639FAB;
 }
 
 div{
@@ -22,12 +22,12 @@ i {
 }
 
 .btn {
-	background-color: #B5838D;
-	border-color:  #6D6875;
+
+	border-color:  #639FAB;
 	color: white;
 }
 
-button {
+ button {
 	opacity: 1;
 }
 
@@ -35,6 +35,5 @@ button:hover{
 	opacity: 0.75;
 }
 
-button:focus {
-    outline: none;
-}
+
+
